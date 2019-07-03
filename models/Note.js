@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
 
+const Schema = mongoose.Schema;
+
 const noteSchema = new Schema({
     _headlineId: {
-        type: Schema,Types,ObjectId,
+        type: String,
         ref: "Headline"
     },
     

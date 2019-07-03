@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const headlineSchema = new Schema ({
+const headlineSchema = new mongoose.Schema ({
     headline: {
         type: String,
         required: true,

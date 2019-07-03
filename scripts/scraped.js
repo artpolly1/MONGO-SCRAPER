@@ -27,6 +27,7 @@ const scrape = function(cb) {
 
     });
 };
+console.log(scrape);
 
 module.exports = scrape;
 
