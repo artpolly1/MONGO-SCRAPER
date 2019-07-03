@@ -1,6 +1,6 @@
 
 html {
-    postion: relative;
+    position: relative;
     min-height: 100%;
 }
 
@@ -16,16 +16,12 @@ html {
     margin-bottom: 0;
 }
 
-#header {
-     background-image: url(https://images.unsplash.com/photo-1499754162586-08f451261482?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); background-image: url(https://images.unsplash.com/photo-1499754162586-08f451261482?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
+.mt-6 {
+    margin-top: 60%;
 }
 
 .jumbotron {
     position: relative;
-   
     width:100%;
     height: 90vh;
     font-family: 'Poppins', sans-serif;
