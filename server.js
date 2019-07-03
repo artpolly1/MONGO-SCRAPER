@@ -10,11 +10,14 @@ const PORT = process.env.PORT || 3000;
 //initialize express
 const app = express();
 
+
 //setup express router 
 const router = express.Router();
 
 //require our routes files 
 require("./config/routes")(router);
+
+
 
 //route to access css in static diretory 
 app.use(express.static(__dirname + "/public"));
@@ -51,7 +54,7 @@ else {
 
 //confirm PORT is working 
 app.listen(PORT, function() {
-    console.log("The spoon doesn't exsist on port:" + PORT)
+    console.log("There's been a connection made on :" + PORT)
 });
 
 

@@ -10,6 +10,10 @@ module.exports = function(router){
         response.render("home");
     });
 
+    router.get("/scraped", function(req, res){
+      res.render("scraped");
+    });
+
     router.get("/saved", function(req, res){
       res.render("saved");
     });
